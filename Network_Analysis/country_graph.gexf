@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="edge" mode="static">
+      <attribute id="2" title="since" type="long" />
+    </attributes>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="oecd" type="boolean" />
+      <attribute id="1" title="gdp_per_capita" type="long" />
+    </attributes>
+    <nodes>
+      <node id="US" label="US">
+        <attvalues>
+          <attvalue for="0" value="true" />
+          <attvalue for="1" value="54800" />
+        </attvalues>
+      </node>
+      <node id="Cuba" label="Cuba">
+        <attvalues>
+          <attvalue for="0" value="false" />
+          <attvalue for="1" value="10200" />
+        </attvalues>
+      </node>
+      <node id="China" label="China">
+        <attvalues>
+          <attvalue for="0" value="false" />
+          <attvalue for="1" value="12900" />
+        </attvalues>
+      </node>
+      <node id="NorthKorea" label="NorthKorea">
+        <attvalues>
+          <attvalue for="0" value="false" />
+          <attvalue for="1" value="1800" />
+        </attvalues>
+      </node>
+      <node id="SouthKorea" label="SouthKorea">
+        <attvalues>
+          <attvalue for="0" value="false" />
+          <attvalue for="1" value="35400" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="US" target="Cuba">
+        <attvalues>
+          <attvalue for="2" value="2015" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="US" target="China">
+        <attvalues>
+          <attvalue for="2" value="1979" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="US" target="SouthKorea">
+        <attvalues>
+          <attvalue for="2" value="1948" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="Cuba" target="China">
+        <attvalues>
+          <attvalue for="2" value="1960" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="Cuba" target="NorthKorea">
+        <attvalues>
+          <attvalue for="2" value="1960" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="China" target="NorthKorea">
+        <attvalues>
+          <attvalue for="2" value="1949" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="China" target="SouthKorea">
+        <attvalues>
+          <attvalue for="2" value="1992" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

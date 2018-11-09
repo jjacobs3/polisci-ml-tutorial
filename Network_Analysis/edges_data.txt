@@ -1,0 +1,7 @@
+US Cuba {'since': 2015}
+US China {'since': 1979}
+US SouthKorea {'since': 1948}
+Cuba China {'since': 1960}
+Cuba NorthKorea {'since': 1960}
+China NorthKorea {'since': 1949}
+China SouthKorea {'since': 1992}

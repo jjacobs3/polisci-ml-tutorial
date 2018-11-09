@@ -1,0 +1,8 @@
+#C:\Users\jj\Anaconda3\lib\site-packages\ipykernel_launcher.py -f C:\Users\jj\AppData\Roaming\jupyter\runtime\kernel-cbb5fb76-423f-4029-a2c6-48c51cc48626.json
+# GMT Fri Oct  6 06:15:55 2017
+# 
+US Cuba China SouthKorea
+Cuba China NorthKorea
+China NorthKorea SouthKorea
+NorthKorea
+SouthKorea
